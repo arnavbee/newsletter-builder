@@ -7,7 +7,7 @@ const NewsletterBuilder = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [copied, setCopied] = useState(false);
-  const [apiEndpoint, setApiEndpoint] = useState('https://your-project.vercel.app/api/fetch-article');
+  const [apiEndpoint, setApiEndpoint] = useState('https://newsletter-builder-tawny.vercel.app/api/fetch-article');
 
   const extractMetadata = async (url) => {
     try {
